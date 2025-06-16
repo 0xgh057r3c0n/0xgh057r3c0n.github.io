@@ -1,0 +1,21 @@
+[
+  { "name": "Python", "icon": "https://img.icons8.com/color/48/000000/python--v1.png" },
+  { "name": "Bash", "icon": "https://img.icons8.com/ios-filled/48/000000/console.png" },
+  { "name": "Linux", "icon": "https://img.icons8.com/color/48/000000/linux--v1.png" },
+  { "name": "Burp Suite", "icon": "https://img.icons8.com/external-flatart-icons-outline-flatarticons/48/000000/external-burp-cyber-security-flatart-icons-outline-flatarticons.png" },
+  { "name": "Metasploit", "icon": "https://img.icons8.com/external-flaticons-flat-flat-icons/48/000000/external-metasploit-hacking-flaticons-flat-flat-icons.png" },
+  { "name": "Wireshark", "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-wireshark-a-network-protocol-analyzer-used-for-network-troubleshooting-logo-color-tal-revivo.png" },
+  { "name": "Nmap", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/000000/external-nmap-cyber-security-flaticons-lineal-color-flat-icons.png" },
+  { "name": "Nikto", "icon": "https://img.icons8.com/dotty/48/000000/web-shield.png" },
+  { "name": "OWASP ZAP", "icon": "https://img.icons8.com/color/48/000000/security-checked.png" },
+  { "name": "SQLMap", "icon": "https://img.icons8.com/ios/48/000000/database.png" },
+  { "name": "Postman", "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-postman-is-the-only-complete-api-development-environment-logo-shadow-tal-revivo.png" },
+  { "name": "Git", "icon": "https://img.icons8.com/color/48/000000/git.png" },
+  { "name": "GitHub", "icon": "https://img.icons8.com/ios-glyphs/48/ffffff/github.png" },
+  { "name": "Docker", "icon": "https://img.icons8.com/color/48/000000/docker.png" },
+  { "name": "Kali Linux", "icon": "https://img.icons8.com/color/48/000000/debian.png" },
+  { "name": "VirtualBox", "icon": "https://img.icons8.com/fluency/48/000000/virtualbox.png" },
+  { "name": "VS Code", "icon": "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" },
+  { "name": "MITMf", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/000000/external-mitm-cyber-security-flaticons-lineal-color-flat-icons.png" },
+  { "name": "Hydra", "icon": "https://img.icons8.com/ios-filled/48/000000/password.png" }
+]

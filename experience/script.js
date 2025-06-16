@@ -29,18 +29,19 @@ const srtop = ScrollReveal({
 srtop.reveal('.experience .timeline',{delay: 400});
 srtop.reveal('.experience .timeline .container',{interval: 400}); 
 
-
-// Tawk.to Live Chat integration
-var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-(function () {
-    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/674749aa2480f5b4f5a4bdfd/1idn7fh5p';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/674749aa2480f5b4f5a4bdfd/1idn7fh5p';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
 })();
-
+</script>
+<!--End of Tawk.to Script-->
 
 
 // disable developer mode

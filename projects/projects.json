@@ -2,7 +2,7 @@
   {
     "name": "0xPortify",
     "desc": "Converts IP:Port pairs into HTTPS URLs for IoT research.",
-    "image": "0xportify",
+    "image": "https://github.com/0xgh057r3c0n/0xPortify/blob/main/logo.png",
     "category": "tools",
     "links": {
       "view": "https://github.com/0xgh057r3c0n/0xPortify",
@@ -12,7 +12,7 @@
   {
     "name": "403Dr0p3r",
     "desc": "Tool for handling HTTP 403 responses or bypass testing.",
-    "image": "403dr0per",
+    "image": "https://github.com/0xgh057r3c0n/403Dr0p3r/blob/main/logo.png",
     "category": "tools",
     "links": {
       "view": "https://github.com/0xgh057r3c0n/403Dr0p3r",
@@ -22,7 +22,7 @@
   {
     "name": "AdminFinder",
     "desc": "Utility to locate admin or login pages via enumeration.",
-    "image": "adminfinder",
+    "image": "https://github.com/0xgh057r3c0n/AdminFinder/blob/main/logo.png",
     "category": "tools",
     "links": {
       "view": "https://github.com/0xgh057r3c0n/AdminFinder",
@@ -32,7 +32,7 @@
   {
     "name": "AdvCrawl",
     "desc": "Advanced Python crawler for reconnaissance tasks.",
-    "image": "advcrawl",
+    "image": "https://github.com/0xgh057r3c0n/AdvCrawl/blob/main/logo.png",
     "category": "tools",
     "links": {
       "view": "https://github.com/0xgh057r3c0n/AdvCrawl",
@@ -42,7 +42,7 @@
   {
     "name": "AuthBypass",
     "desc": "A tool designed to bypass authentication mechanisms.",
-    "image": "authbypass",
+    "image": "https://github.com/0xgh057r3c0n/AuthBypass/blob/main/logo.png",
     "category": "tools",
     "links": {
       "view": "https://github.com/0xgh057r3c0n/AuthBypass",

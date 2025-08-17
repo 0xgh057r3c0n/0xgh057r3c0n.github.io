@@ -14,6 +14,10 @@ fetch('./projects.json')
   .then((res) => res.json())
   .then((projects) => {
     const container = document.querySelector('.box-container');
+    if (!container) {
+      console.error('Container element .box-container not found.');
+      return;
+    }
     projects.forEach((project) => {
       const box = document.createElement('div');
       box.classList.add('grid-item', project.category);
@@ -39,33 +43,50 @@ fetch('./projects.json')
       container.appendChild(box);
     });
 
-    // Initialize isotope filter
-    var $grid = $('.box-container').isotope({
-      itemSelector: '.grid-item',
-      layoutMode: 'fitRows'
-    });
+    // Add gap between grid items using inline style as fallback
+    container.style.display = 'grid';
+    container.style.gridGap = '20px';
+    container.style.gridTemplateColumns = 'repeat(auto-fit, minmax(300px, 1fr))';
 
-    $('.button-group .btn').on('click', function () {
-      $('.button-group .btn').removeClass('is-checked');
-      $(this).addClass('is-checked');
+    // Ensure dependencies are loaded before using them
+    if (typeof $ !== 'undefined' && typeof $.fn.isotope !== 'undefined') {
+      var $grid = $('.box-container').isotope({
+        itemSelector: '.grid-item',
+        layoutMode: 'fitRows'
+      });
 
-      var filterValue = $(this).attr('data-filter');
-      $grid.isotope({ filter: filterValue });
-    });
+      $('.button-group .btn').on('click', function () {
+        $('.button-group .btn').removeClass('is-checked');
+        $(this).addClass('is-checked');
 
-    ScrollReveal().reveal('.box', {
-      distance: '50px',
-      duration: 1000,
-      easing: 'ease-out',
-      origin: 'bottom',
-      interval: 200
-    });
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+      });
+    } else {
+      console.warn('jQuery or Isotope is not loaded.');
+    }
 
-    VanillaTilt.init(document.querySelectorAll(".box"), {
-      max: 15,
-      speed: 400
-    });
+    if (typeof ScrollReveal !== 'undefined') {
+      ScrollReveal().reveal('.box', {
+        distance: '50px',
+        duration: 1000,
+        easing: 'ease-out',
+        origin: 'bottom',
+        interval: 200
+      });
+    } else {
+      console.warn('ScrollReveal is not loaded.');
+    }
+
+    if (typeof VanillaTilt !== 'undefined') {
+      VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 15,
+        speed: 400
+      });
+    } else {
+      console.warn('VanillaTilt is not loaded.');
+    }
   })
-  .catch((error) => {
-    console.error('Failed to load projects:', error);
-  });
+    .catch((error) => {
+      console.error('Failed to load projects:', error);
+    });

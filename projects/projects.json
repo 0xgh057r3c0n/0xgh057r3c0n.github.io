@@ -1,5 +1,265 @@
 [
   {
+    "name": "CVE-2025-6934",
+    "desc": "Critical vulnerability in WordPress Opal Estate Pro plugin (<= 1.7.5) allowing unauthenticated admin creation.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-6934/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-6934",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-6934"
+    }
+  },
+  {
+    "name": "Jarvis-AI",
+    "desc": "Jarvis 2.0: Python-based virtual assistant for Linux.",
+    "image": "https://github.com/0xgh057r3c0n/Jarvis-AI/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/Jarvis-AI",
+      "code": "https://github.com/0xgh057r3c0n/Jarvis-AI"
+    }
+  },
+  {
+    "name": "CVE-2025-31125",
+    "desc": "Vite WASM Import Path Traversal.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-31125/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-31125",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-31125"
+    }
+  },
+  {
+    "name": "0xgh057r3c0n",
+    "desc": "Configs and GitHub profile setup.",
+    "image": "https://github.com/0xgh057r3c0n/0xgh057r3c0n/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/0xgh057r3c0n",
+      "code": "https://github.com/0xgh057r3c0n/0xgh057r3c0n"
+    }
+  },
+  {
+    "name": "CVE-2025-34077",
+    "desc": "PoC for unauthenticated admin session hijack in Pie Register Plugin (<= 3.7.1.4).",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-34077/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-34077",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-34077"
+    }
+  },
+  {
+    "name": "SysAid-PreAuth-RCE-Chain",
+    "desc": "Pre-auth RCE exploit chain for SysAid On-Premise servers on Windows.",
+    "image": "https://github.com/0xgh057r3c0n/SysAid-PreAuth-RCE-Chain/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/SysAid-PreAuth-RCE-Chain",
+      "code": "https://github.com/0xgh057r3c0n/SysAid-PreAuth-RCE-Chain"
+    }
+  },
+  {
+    "name": "CVE-2025-6058",
+    "desc": "WordPress WPBookit <= 1.0.4 unauthenticated file upload exploit.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-6058/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-6058",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-6058"
+    }
+  },
+  {
+    "name": "CVE-2025-34085",
+    "desc": "WordPress Simple File List unauthenticated RCE exploit.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-34085/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-34085",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-34085"
+    }
+  },
+  {
+    "name": "CVE-2025-25257",
+    "desc": "FortiWeb SQL injection \u2192 webshell \u2192 RCE (unauthenticated).",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-25257/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-25257",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-25257"
+    }
+  },
+  {
+    "name": "CVE-2025-5777",
+    "desc": "Citrix NetScaler Memory Leak PoC.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-5777/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-5777",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-5777"
+    }
+  },
+  {
+    "name": "CVE-2025-47812",
+    "desc": "Wing FTP Server RCE via Lua injection.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-47812/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-47812",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-47812"
+    }
+  },
+  {
+    "name": "AuthBypass",
+    "desc": "Automated SQL Injection tool for login bypass.",
+    "image": "https://github.com/0xgh057r3c0n/AuthBypass/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/AuthBypass",
+      "code": "https://github.com/0xgh057r3c0n/AuthBypass"
+    }
+  },
+  {
+    "name": "CVE-2025-3248",
+    "desc": "Exploit for Langflow AI Remote Code Execution (Unauthenticated).",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-3248/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-3248",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-3248"
+    }
+  },
+  {
+    "name": "AdvCrawl",
+    "desc": "Advanced crawling tool.",
+    "image": "https://github.com/0xgh057r3c0n/AdvCrawl/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/AdvCrawl",
+      "code": "https://github.com/0xgh057r3c0n/AdvCrawl"
+    }
+  },
+  {
+    "name": "AdminFinder",
+    "desc": "Finds common admin panel URLs on websites.",
+    "image": "https://github.com/0xgh057r3c0n/AdminFinder/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/AdminFinder",
+      "code": "https://github.com/0xgh057r3c0n/AdminFinder"
+    }
+  },
+  {
+    "name": "CloudBYP",
+    "desc": "Finds origin IPs of Cloudflare-protected sites using Censys API.",
+    "image": "https://github.com/0xgh057r3c0n/CloudBYP/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CloudBYP",
+      "code": "https://github.com/0xgh057r3c0n/CloudBYP"
+    }
+  },
+  {
+    "name": "CVE-2025-3102",
+    "desc": "SureTriggers <= 1.0.78 authorization bypass exploit.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-3102/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-3102",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-3102"
+    }
+  },
+  {
+    "name": "CVE-2025-48827",
+    "desc": "Critical unauthenticated API access in vBulletin.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-48827/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-48827",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-48827"
+    }
+  },
+  {
+    "name": "CVE-2025-31161",
+    "desc": "CrushFTP user creation authentication bypass exploit.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2025-31161/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2025-31161",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2025-31161"
+    }
+  },
+  {
+    "name": "ObFuscate",
+    "desc": "WAF bypass tool via obfuscation techniques.",
+    "image": "https://github.com/0xgh057r3c0n/ObFuscate/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/ObFuscate",
+      "code": "https://github.com/0xgh057r3c0n/ObFuscate"
+    }
+  },
+  {
+    "name": "DroidForensic",
+    "desc": "Advanced mobile forensic framework.",
+    "image": "https://github.com/0xgh057r3c0n/DroidForensic/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/DroidForensic",
+      "code": "https://github.com/0xgh057r3c0n/DroidForensic"
+    }
+  },
+  {
+    "name": "CODEALPHA-BUG-BOUNTY",
+    "desc": "Bug bounty web platform for reporting & tracking software bugs.",
+    "image": "https://github.com/0xgh057r3c0n/CODEALPHA-BUG-BOUNTY/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CODEALPHA-BUG-BOUNTY",
+      "code": "https://github.com/0xgh057r3c0n/CODEALPHA-BUG-BOUNTY"
+    }
+  },
+  {
+    "name": "PDFgen",
+    "desc": "Converts a given webpage URL into a PDF file.",
+    "image": "https://github.com/0xgh057r3c0n/PDFgen/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/PDFgen",
+      "code": "https://github.com/0xgh057r3c0n/PDFgen"
+    }
+  },
+  {
+    "name": "CodeAlpha_Secure-File-Transfer-Application",
+    "desc": "Secure file transfer application.",
+    "image": "https://github.com/0xgh057r3c0n/CodeAlpha_Secure-File-Transfer-Application/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CodeAlpha_Secure-File-Transfer-Application",
+      "code": "https://github.com/0xgh057r3c0n/CodeAlpha_Secure-File-Transfer-Application"
+    }
+  },
+  {
+    "name": "MailShield",
+    "desc": "Protection against email spoofing.",
+    "image": "https://github.com/0xgh057r3c0n/MailShield/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/MailShield",
+      "code": "https://github.com/0xgh057r3c0n/MailShield"
+    }
+  },
+  {
+    "name": "HelioCORS",
+    "desc": "Advanced CORS vulnerability detection tool.",
+    "image": "https://github.com/0xgh057r3c0n/HelioCORS/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/HelioCORS",
+      "code": "https://github.com/0xgh057r3c0n/HelioCORS"
+    }
+  },
+  {
     "name": "0xPortify",
     "desc": "Converts IP:Port pairs into HTTPS URLs for IoT research.",
     "image": "https://github.com/0xgh057r3c0n/0xPortify/blob/main/logo.png",
@@ -10,8 +270,118 @@
     }
   },
   {
+    "name": "Metamorphosis",
+    "desc": "The Evolution of Identity project.",
+    "image": "https://github.com/0xgh057r3c0n/Metamorphosis/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/Metamorphosis",
+      "code": "https://github.com/0xgh057r3c0n/Metamorphosis"
+    }
+  },
+  {
+    "name": "Tonlshols",
+    "desc": "Port forwarding tool using serveo (SSH tunnels).",
+    "image": "https://github.com/0xgh057r3c0n/Tonlshols/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/Tonlshols",
+      "code": "https://github.com/0xgh057r3c0n/Tonlshols"
+    }
+  },
+  {
+    "name": "CodeAlpha_Network_Sniffer",
+    "desc": "Python-based packet sniffer tool with GUI.",
+    "image": "https://github.com/0xgh057r3c0n/CodeAlpha_Network_Sniffer/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CodeAlpha_Network_Sniffer",
+      "code": "https://github.com/0xgh057r3c0n/CodeAlpha_Network_Sniffer"
+    }
+  },
+  {
+    "name": "PRODIGY_CS_TASK_03",
+    "desc": "Password strength checker with GUI.",
+    "image": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_03/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_03",
+      "code": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_03"
+    }
+  },
+  {
+    "name": "PRODIGY_CS_TASK_01",
+    "desc": "Caesar Cipher encryption/decryption tool.",
+    "image": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_01/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_01",
+      "code": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_01"
+    }
+  },
+  {
+    "name": "DorkScanner",
+    "desc": "Google dorking search tool.",
+    "image": "https://github.com/0xgh057r3c0n/DorkScanner/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/DorkScanner",
+      "code": "https://github.com/0xgh057r3c0n/DorkScanner"
+    }
+  },
+  {
+    "name": "ClonePhish",
+    "desc": "Phishing & social engineering toolkit.",
+    "image": "https://github.com/0xgh057r3c0n/ClonePhish/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/ClonePhish",
+      "code": "https://github.com/0xgh057r3c0n/ClonePhish"
+    }
+  },
+  {
+    "name": "PRODIGY_CS_TASK_05",
+    "desc": "Packet sniffer with tkinter GUI & scapy.",
+    "image": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_05/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_05",
+      "code": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_05"
+    }
+  },
+  {
+    "name": "PRODIGY_CS_TASK_04",
+    "desc": "Keylogger with tkinter GUI.",
+    "image": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_04/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_04",
+      "code": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_04"
+    }
+  },
+  {
+    "name": "PRODIGY_CS_TASK_02",
+    "desc": "Image encryption tool (XOR-based).",
+    "image": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_02/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_02",
+      "code": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_02"
+    }
+  },
+  {
+    "name": "VIJAYA-FARMWORK",
+    "desc": "Comprehensive penetration testing framework.",
+    "image": "https://github.com/0xgh057r3c0n/VIJAYA-FARMWORK/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/VIJAYA-FARMWORK",
+      "code": "https://github.com/0xgh057r3c0n/VIJAYA-FARMWORK"
+    }
+  },
+  {
     "name": "403Dr0p3r",
-    "desc": "Tool for handling HTTP 403 responses or bypass testing.",
+    "desc": "Bypasses HTTP 403 Forbidden errors.",
     "image": "https://github.com/0xgh057r3c0n/403Dr0p3r/blob/main/logo.png",
     "category": "tools",
     "links": {
@@ -20,279 +390,9 @@
     }
   },
   {
-    "name": "AdminFinder",
-    "desc": "Utility to locate admin or login pages via enumeration.",
-    "image": "https://github.com/0xgh057r3c0n/AdminFinder/blob/main/logo.png",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/AdminFinder",
-      "code": "https://github.com/0xgh057r3c0n/AdminFinder"
-    }
-  },
-  {
-    "name": "AdvCrawl",
-    "desc": "Advanced Python crawler for reconnaissance tasks.",
-    "image": "https://github.com/0xgh057r3c0n/AdvCrawl/blob/main/logo.png",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/AdvCrawl",
-      "code": "https://github.com/0xgh057r3c0n/AdvCrawl"
-    }
-  },
-  {
-    "name": "AuthBypass",
-    "desc": "A tool designed to bypass authentication mechanisms.",
-    "image": "https://github.com/0xgh057r3c0n/AuthBypass/blob/main/logo.png",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/AuthBypass",
-      "code": "https://github.com/0xgh057r3c0n/AuthBypass"
-    }
-  },
-  {
-    "name": "CODEALPHA BUG BOUNTY",
-    "desc": "Bug bounty resource or tooling under CodeAlpha.",
-    "image": "codealpha-bug-bounty",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/CODEALPHA-BUG-BOUNTY",
-      "code": "https://github.com/0xgh057r3c0n/CODEALPHA-BUG-BOUNTY"
-    }
-  },
-  {
-    "name": "CVE‑2025‑3102",
-    "desc": "Proof‑of‑concept for CVE‑2025‑3102 vulnerability.",
-    "image": "cve20253102",
-    "category": "cybersec",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/CVE-2025-3102",
-      "code": "https://github.com/0xgh057r3c0n/CVE-2025-3102"
-    }
-  },
-  {
-    "name": "CVE‑2025‑31125",
-    "desc": "Python exploit for Vite’s WASM import traversal vulnerability.",
-    "image": "cve202531125",
-    "category": "cybersec",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/CVE-2025-31125",
-      "code": "https://github.com/0xgh057r3c0n/CVE-2025-31125"
-    }
-  },
-  {
-    "name": "CVE‑2025‑31161",
-    "desc": "PoC exploit for CVE‑2025‑31161 vulnerability.",
-    "image": "cve202531161",
-    "category": "cybersec",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/CVE-2025-31161",
-      "code": "https://github.com/0xgh057r3c0n/CVE-2025-31161"
-    }
-  },
-  {
-    "name": "CVE‑2025‑48827",
-    "desc": "PoC for unauthenticated API access in vBulletin.",
-    "image": "cve202548827",
-    "category": "cybersec",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/CVE-2025-48827",
-      "code": "https://github.com/0xgh057r3c0n/CVE-2025-48827"
-    }
-  },
-  {
-    "name": "ClonePhish",
-    "desc": "Python social‑engineering phishing toolkit for ethical hackers.",
-    "image": "clonephish",
-    "category": "cybersec",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/ClonePhish",
-      "code": "https://github.com/0xgh057r3c0n/ClonePhish"
-    }
-  },
-  {
-    "name": "CloudBYP",
-    "desc": "Tool focused on bypassing cloud-based restrictions or WAFs.",
-    "image": "cloudbyp",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/CloudBYP",
-      "code": "https://github.com/0xgh057r3c0n/CloudBYP"
-    }
-  },
-  {
-    "name": "CodeAlpha Network Sniffer",
-    "desc": "Network packet sniffer tool part of CodeAlpha toolkit.",
-    "image": "codealpha-network-sniffer",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/CodeAlpha_Network_Sniffer",
-      "code": "https://github.com/0xgh057r3c0n/CodeAlpha_Network_Sniffer"
-    }
-  },
-  {
-    "name": "Secure File Transfer (CodeAlpha)",
-    "desc": "Secure file transfer application from CodeAlpha.",
-    "image": "codealpha-sft",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/CodeAlpha_Secure-File-Transfer-Application",
-      "code": "https://github.com/0xgh057r3c0n/CodeAlpha_Secure-File-Transfer-Application"
-    }
-  },
-  {
-    "name": "DorkScanner",
-    "desc": "Automated Google dork scanner tool.",
-    "image": "dorkscanner",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/DorkScanner",
-      "code": "https://github.com/0xgh057r3c0n/DorkScanner"
-    }
-  },
-  {
-    "name": "DroidForensic",
-    "desc": "Android forensic analysis toolkit.",
-    "image": "droidforensic",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/DroidForensic",
-      "code": "https://github.com/0xgh057r3c0n/DroidForensic"
-    }
-  },
-  {
-    "name": "HelioCORS",
-    "desc": "Tool for detecting or exploiting CORS misconfigurations.",
-    "image": "heliocors",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/HelioCORS",
-      "code": "https://github.com/0xgh057r3c0n/HelioCORS"
-    }
-  },
-  {
-    "name": "MailShield",
-    "desc": "Email protection tool for detecting spoof or inject attacks.",
-    "image": "mailshield",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/MailShield",
-      "code": "https://github.com/0xgh057r3c0n/MailShield"
-    }
-  },
-  {
-    "name": "Metamorphosis",
-    "desc": "Payload transformation and obfuscation utility.",
-    "image": "metamorphosis",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/Metamorphosis",
-      "code": "https://github.com/0xgh057r3c0n/Metamorphosis"
-    }
-  },
-  {
-    "name": "ObFuscate",
-    "desc": "WAF‑bypassing obfuscation engine for payloads.",
-    "image": "obfuscate",
-    "category": "cybersec",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/ObFuscate",
-      "code": "https://github.com/0xgh057r3c0n/ObFuscate"
-    }
-  },
-  {
-    "name": "PDFgen",
-    "desc": "Automated PDF document generator tool.",
-    "image": "pdfgen",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/PDFgen",
-      "code": "https://github.com/0xgh057r3c0n/PDFgen"
-    }
-  },
-  {
-    "name": "PRODIGY CS TASKS",
-    "desc": "Series of coding challenges (Tasks 01–05).",
-    "image": "prodigy_cs_task",
-    "category": "challenge",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_01",
-      "code": "https://github.com/0xgh057r3c0n/PRODIGY_CS_TASK_01"
-    }
-  },
-  {
-    "name": "Tonlshols",
-    "desc": "Tool/project by 0xgh057r3c0n – description needed.",
-    "image": "tonlshols",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/Tonlshols",
-      "code": "https://github.com/0xgh057r3c0n/Tonlshols"
-    }
-  },
-  {
-    "name": "VIJAYA FARMWORK",
-    "desc": "Tool/project named VIJAYA‑FARMWORK by 0xgh057r3c0n.",
-    "image": "vijaya-farmwork",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/VIJAYA-FARMWORK",
-      "code": "https://github.com/0xgh057r3c0n/VIJAYA-FARMWORK"
-    }
-  },
-  {
-    "name": "Bomkesh OSINT",
-    "desc": "OSINT tool for username profiling and reverse‑email lookups.",
-    "image": "bomkeshosint",
-    "category": "cybersec",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/Bomkesh-OSINT",
-      "code": "https://github.com/0xgh057r3c0n/Bomkesh-OSINT"
-    }
-  },
-  {
-    "name": "Garden",
-    "desc": "Tool by 0xgh057r3c0n – description needed.",
-    "image": "garden",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/Garden",
-      "code": "https://github.com/0xgh057r3c0n/Garden"
-    }
-  },
-  {
-    "name": "Hunter",
-    "desc": "Tool by 0xgh057r3c0n – description needed.",
-    "image": "hunter",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/Hunter",
-      "code": "https://github.com/0xgh057r3c0n/Hunter"
-    }
-  },
-  {
-    "name": "Jarvis AI",
-    "desc": "AI assistant tool by 0xgh057r3c0n.",
-    "image": "jarvisai",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/Jarvis-AI",
-      "code": "https://github.com/0xgh057r3c0n/Jarvis-AI"
-    }
-  },
-  {
-    "name": "MSFInstaller",
-    "desc": "Installer script for Metasploit Framework.",
-    "image": "msfinstaller",
-    "category": "tools",
-    "links": {
-      "view": "https://github.com/0xgh057r3c0n/MSFInstaller",
-      "code": "https://github.com/0xgh057r3c0n/MSFInstaller"
-    }
-  },
-  {
     "name": "REDHACK",
-    "desc": "Red teaming toolkit by 0xgh057r3c0n.",
-    "image": "redhack",
+    "desc": "DDoS tool for stress testing.",
+    "image": "https://github.com/0xgh057r3c0n/REDHACK/blob/main/logo.png",
     "category": "tools",
     "links": {
       "view": "https://github.com/0xgh057r3c0n/REDHACK",
@@ -300,29 +400,59 @@
     }
   },
   {
+    "name": "MSFInstaller",
+    "desc": "Auto-installer for Metasploit Framework (Linux & Termux).",
+    "image": "https://github.com/0xgh057r3c0n/MSFInstaller/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/MSFInstaller",
+      "code": "https://github.com/0xgh057r3c0n/MSFInstaller"
+    }
+  },
+  {
     "name": "SpoofMailer",
-    "desc": "Stealth SMTP email spoofing tool.",
-    "image": "spoofmailer",
-    "category": "cybersec",
+    "desc": "Stealthy SMTP email spoofing tool.",
+    "image": "https://github.com/0xgh057r3c0n/SpoofMailer/blob/main/logo.png",
+    "category": "tools",
     "links": {
       "view": "https://github.com/0xgh057r3c0n/SpoofMailer",
       "code": "https://github.com/0xgh057r3c0n/SpoofMailer"
     }
   },
   {
-    "name": "SubEnum",
-    "desc": "Subdomain enumeration tool.",
-    "image": "subenum",
+    "name": "Hunter",
+    "desc": "Finds vulnerability report contacts via email discovery.",
+    "image": "https://github.com/0xgh057r3c0n/Hunter/blob/main/logo.png",
     "category": "tools",
     "links": {
-      "view": "https://github.com/0xgh057r3c0n/SubEnum",
-      "code": "https://github.com/0xgh057r3c0n/SubEnum"
+      "view": "https://github.com/0xgh057r3c0n/Hunter",
+      "code": "https://github.com/0xgh057r3c0n/Hunter"
+    }
+  },
+  {
+    "name": "WebSHELL",
+    "desc": "PHP backdoor generator + Netcat listener.",
+    "image": "https://github.com/0xgh057r3c0n/WebSHELL/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/WebSHELL",
+      "code": "https://github.com/0xgh057r3c0n/WebSHELL"
+    }
+  },
+  {
+    "name": "Bomkesh-OSINT",
+    "desc": "OSINT tool for social media & reverse email lookups.",
+    "image": "https://github.com/0xgh057r3c0n/Bomkesh-OSINT/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/Bomkesh-OSINT",
+      "code": "https://github.com/0xgh057r3c0n/Bomkesh-OSINT"
     }
   },
   {
     "name": "TheSherlock",
-    "desc": "Sherlock‑style OSINT username profiler.",
-    "image": "thesherlock",
+    "desc": "Website scanner & analyzer.",
+    "image": "https://github.com/0xgh057r3c0n/TheSherlock/blob/main/logo.png",
     "category": "tools",
     "links": {
       "view": "https://github.com/0xgh057r3c0n/TheSherlock",
@@ -330,13 +460,23 @@
     }
   },
   {
-    "name": "WebSHELL",
-    "desc": "Web shell payload or management tool.",
-    "image": "webshell",
+    "name": "Garden",
+    "desc": "Automated SQL Injection tool.",
+    "image": "https://github.com/0xgh057r3c0n/Garden/blob/main/logo.png",
     "category": "tools",
     "links": {
-      "view": "https://github.com/0xgh057r3c0n/WebSHELL",
-      "code": "https://github.com/0xgh057r3c0n/WebSHELL"
+      "view": "https://github.com/0xgh057r3c0n/Garden",
+      "code": "https://github.com/0xgh057r3c0n/Garden"
+    }
+  },
+  {
+    "name": "SubEnum",
+    "desc": "Simple subdomain scanner in Python.",
+    "image": "https://github.com/0xgh057r3c0n/SubEnum/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/SubEnum",
+      "code": "https://github.com/0xgh057r3c0n/SubEnum"
     }
   }
 ]

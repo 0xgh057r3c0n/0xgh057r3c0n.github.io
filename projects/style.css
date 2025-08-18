@@ -191,19 +191,22 @@ header .navbar ul li a:hover{
   color: #000;
 }
 
-/* ✅ Modified project grid */
+/* ✅ Fixed project grid */
 .work .box-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem; /* spacing between projects */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem; /* spacing between cards */
   margin: 2rem 0;
+  justify-items: center; /* keep items centered */
 }
 .work .box-container .box{
+  width: 100%;
+  max-width: 350px; /* prevents overly wide cards */
+  height: 30rem;    /* equal height */
   border-radius: .5rem;
   box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
   position: relative;
   overflow:hidden;
-  height:30rem;  /* equal height */
   background: #fff;
   border: none;
 }
@@ -273,9 +276,10 @@ header .navbar ul li a:hover{
   }
   .work .box-container{
     margin: 0rem;
+    grid-template-columns: 1fr; /* one per row on mobile */
   }
-  .work .box-container .grid-item .box{
-    width: 95% !important;
+  .work .box-container .box{
+    max-width: 100%;
   }
 }
 

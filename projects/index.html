@@ -4,19 +4,15 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Gaurav Bhattacharjee - Web Application Penetration Tester. Cybersecurity projects, CVEs, and security tools portfolio." />
-  <meta name="keywords" content="Gaurav, Bhattacharjee, cybersecurity, penetration testing, bug bounty, CVE, security tools" />
-  <meta name="author" content="Gaurav Bhattacharjee" />
-  
-  <!-- Custom CSS -->
+  <meta name="description" content="Gaurav Bhattacharjee - Cybersecurity Portfolio | Web Application Penetration Tester" />
   <link rel="stylesheet" href="./style.css" />
-  
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
   <link id="favicon" rel="shortcut icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%2300ff88'/%3E%3Ctext x='50' y='70' text-anchor='middle' fill='%23000' font-size='50' font-weight='bold'%3E⚡%3C/text%3E%3C/svg%3E" type="image/svg+xml" />
-  
-  <title>Projects | Gaurav Bhattacharjee - Security Portfolio</title>
+  <title>Projects | Gaurav Bhattacharjee</title>
 </head>
 <body oncontextmenu="return false">
   <header>
@@ -65,92 +61,7 @@
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 
-  <!-- Main Script (your existing script.js) -->
+  <!-- Main Script -->
   <script src="./script.js"></script>
-  
-  <!-- Fallback: If script.js doesn't load or projects.json fails, this ensures content shows -->
-  <script>
-    // Emergency fallback - loads projects directly if projects.json fails
-    (function() {
-      // Wait for DOM and also check if projects loaded
-      setTimeout(function() {
-        const container = document.querySelector('.box-container');
-        if (container && container.children.length === 0) {
-          console.log('Loading fallback projects data...');
-          
-          // Your complete projects data from the JSON
-          const fallbackProjects = [
-            { name: "0xPortify", desc: "Converts IP:Port pairs into HTTPS URLs for IoT research.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/0xPortify", code: "https://github.com/0xgh057r3c0n/0xPortify" } },
-            { name: "403Dr0p3r", desc: "Tool for handling HTTP 403 responses or bypass testing.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/403Dr0p3r", code: "https://github.com/0xgh057r3c0n/403Dr0p3r" } },
-            { name: "AdminFinder", desc: "Utility to locate admin or login pages via enumeration.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/AdminFinder", code: "https://github.com/0xgh057r3c0n/AdminFinder" } },
-            { name: "AdvCrawl", desc: "Advanced Python crawler for reconnaissance tasks.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/AdvCrawl", code: "https://github.com/0xgh057r3c0n/AdvCrawl" } },
-            { name: "AuthBypass", desc: "A tool designed to bypass authentication mechanisms.", category: "webapp", links: { view: "https://github.com/0xgh057r3c0n/AuthBypass", code: "https://github.com/0xgh057r3c0n/AuthBypass" } },
-            { name: "CVE-2025-3102", desc: "Proof-of-concept for CVE-2025-3102 vulnerability.", category: "vuln", links: { view: "https://github.com/0xgh057r3c0n/CVE-2025-3102", code: "https://github.com/0xgh057r3c0n/CVE-2025-3102" } },
-            { name: "CVE-2025-31125", desc: "Python exploit for Vite's WASM import traversal vulnerability.", category: "vuln", links: { view: "https://github.com/0xgh057r3c0n/CVE-2025-31125", code: "https://github.com/0xgh057r3c0n/CVE-2025-31125" } },
-            { name: "CVE-2025-31161", desc: "PoC exploit for CVE-2025-31161 vulnerability.", category: "vuln", links: { view: "https://github.com/0xgh057r3c0n/CVE-2025-31161", code: "https://github.com/0xgh057r3c0n/CVE-2025-31161" } },
-            { name: "CVE-2025-48827", desc: "PoC for unauthenticated API access in vBulletin.", category: "vuln", links: { view: "https://github.com/0xgh057r3c0n/CVE-2025-48827", code: "https://github.com/0xgh057r3c0n/CVE-2025-48827" } },
-            { name: "ClonePhish", desc: "Python social-engineering phishing toolkit for ethical hackers.", category: "pentest", links: { view: "https://github.com/0xgh057r3c0n/ClonePhish", code: "https://github.com/0xgh057r3c0n/ClonePhish" } },
-            { name: "CloudBYP", desc: "Tool focused on bypassing cloud-based restrictions or WAFs.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/CloudBYP", code: "https://github.com/0xgh057r3c0n/CloudBYP" } },
-            { name: "DorkScanner", desc: "Automated Google dork scanner tool.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/DorkScanner", code: "https://github.com/0xgh057r3c0n/DorkScanner" } },
-            { name: "DroidForensic", desc: "Android forensic analysis toolkit.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/DroidForensic", code: "https://github.com/0xgh057r3c0n/DroidForensic" } },
-            { name: "HelioCORS", desc: "Tool for detecting or exploiting CORS misconfigurations.", category: "webapp", links: { view: "https://github.com/0xgh057r3c0n/HelioCORS", code: "https://github.com/0xgh057r3c0n/HelioCORS" } },
-            { name: "MailShield", desc: "Email protection tool for detecting spoof or inject attacks.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/MailShield", code: "https://github.com/0xgh057r3c0n/MailShield" } },
-            { name: "Metamorphosis", desc: "Payload transformation and obfuscation utility.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/Metamorphosis", code: "https://github.com/0xgh057r3c0n/Metamorphosis" } },
-            { name: "ObFuscate", desc: "WAF-bypassing obfuscation engine for payloads.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/ObFuscate", code: "https://github.com/0xgh057r3c0n/ObFuscate" } },
-            { name: "Bomkesh OSINT", desc: "OSINT tool for username profiling and reverse-email lookups.", category: "research", links: { view: "https://github.com/0xgh057r3c0n/Bomkesh-OSINT", code: "https://github.com/0xgh057r3c0n/Bomkesh-OSINT" } },
-            { name: "SubEnum", desc: "Subdomain enumeration tool.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/SubEnum", code: "https://github.com/0xgh057r3c0n/SubEnum" } },
-            { name: "TheSherlock", desc: "Sherlock-style OSINT username profiler.", category: "research", links: { view: "https://github.com/0xgh057r3c0n/TheSherlock", code: "https://github.com/0xgh057r3c0n/TheSherlock" } },
-            { name: "WebSHELL", desc: "Web shell payload or management tool.", category: "tools", links: { view: "https://github.com/0xgh057r3c0n/WebSHELL", code: "https://github.com/0xgh057r3c0n/WebSHELL" } }
-          ];
-          
-          // Map categories to filter classes
-          const categoryMap = {
-            'tools': 'tools',
-            'webapp': 'webapp',
-            'vuln': 'vuln',
-            'pentest': 'pentest',
-            'research': 'research'
-          };
-          
-          // Render projects
-          fallbackProjects.forEach(proj => {
-            const filterClass = categoryMap[proj.category] || 'tools';
-            const card = document.createElement('div');
-            card.className = `box ${filterClass}`;
-            card.innerHTML = `
-              <div class="project-card">
-                <div class="card-header">
-                  <i class="fas ${proj.category === 'vuln' ? 'fa-bug' : (proj.category === 'tools' ? 'fa-tools' : 'fa-shield-alt')}"></i>
-                  <h3>${escapeHtml(proj.name)}</h3>
-                </div>
-                <div class="card-content">
-                  <p>${escapeHtml(proj.desc)}</p>
-                  <div class="card-links">
-                    <a href="${proj.links.view}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> View Repo</a>
-                    <a href="${proj.links.code}" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Source</a>
-                  </div>
-                </div>
-              </div>
-            `;
-            container.appendChild(card);
-          });
-          
-          // Reinitialize isotope if available
-          if (typeof jQuery !== 'undefined' && jQuery().isotope) {
-            jQuery('.box-container').isotope('reloadItems');
-          }
-        }
-      }, 1000);
-      
-      function escapeHtml(str) {
-        return str.replace(/[&<>]/g, function(m) {
-          if(m === '&') return '&amp;';
-          if(m === '<') return '&lt;';
-          if(m === '>') return '&gt;';
-          return m;
-        });
-      }
-    })();
-  </script>
 </body>
 </html>

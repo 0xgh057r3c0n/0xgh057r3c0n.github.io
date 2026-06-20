@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Penetration Testing", "Ethical Hacking", "Vulnerability Assessment", "Web Application Security", "Network Security" , "Android Application Security"],
+    strings: ["VAPT", "API Testing", "Web Application Penatration Testing", "Network Penetration Testing" , "Android Application Penetraion Testing" , "AI/LLM Penetration Testing"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,

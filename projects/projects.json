@@ -478,5 +478,25 @@
       "view": "https://github.com/0xgh057r3c0n/SubEnum",
       "code": "https://github.com/0xgh057r3c0n/SubEnum"
     }
+  },
+  {
+    "name": "secure-ota-firmware-system",
+    "desc": "Logistics & IoT Edge secure OTA firmware update and code signing infrastructure.",
+    "image": "https://github.com/0xgh057r3c0n/secure-ota-firmware-system/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/secure-ota-firmware-system",
+      "code": "https://github.com/0xgh057r3c0n/secure-ota-firmware-system"
+    }
+  },
+  {
+    "name": "CVE-2026-10580",
+    "desc": "PoC exploit for CVE-2026-10580 authentication bypass in Hippoo Mobile App for WooCommerce.",
+    "image": "https://github.com/0xgh057r3c0n/CVE-2026-10580/blob/main/logo.png",
+    "category": "tools",
+    "links": {
+      "view": "https://github.com/0xgh057r3c0n/CVE-2026-10580",
+      "code": "https://github.com/0xgh057r3c0n/CVE-2026-10580"
+    }
   }
 ]

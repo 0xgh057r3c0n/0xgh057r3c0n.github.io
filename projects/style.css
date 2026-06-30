@@ -193,37 +193,39 @@ header .navbar ul li a:hover{
 
 /* 🔥 Project grid */
 .work .box-container {
-  display: grid;
-  gap: 2rem;
-  margin: 2rem;
-  justify-content: center;
+  position: relative;
+  display: block;
+  margin: 2rem auto;
+  padding: 0;
 }
 
-/* Responsive forced layout */
-@media screen and (min-width: 1024px) {
-  .work .box-container {
-    grid-template-columns: repeat(3, 1fr); /* desktop/laptops → 3 columns */
+.work .box-container .grid-item {
+  width: calc(33.333% - 1.33rem);
+  float: left;
+  padding: 0.66rem;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .work .box-container .grid-item {
+    width: calc(50% - 1.33rem);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .work .box-container {
-    grid-template-columns: repeat(2, 1fr); /* tablets → 2 columns */
-  }
-}
+
 @media screen and (max-width: 767px) {
-  .work .box-container {
-    grid-template-columns: 1fr; /* mobile → 1 column */
+  .work .box-container .grid-item {
+    width: 100%;
   }
 }
 
 .work .box-container .box{
-  max-width: 350px;
-  height:30rem;
-  margin: auto;
+  width: 100%;
+  height: 30rem;
+  margin: 0;
   border-radius: .5rem;
   box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
   background: #fff;
   border: none;
 }
